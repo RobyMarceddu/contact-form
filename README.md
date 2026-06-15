@@ -115,7 +115,7 @@ The project was built with **opencode** (powered by big-pickle), an AI coding as
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/RobyMarceddu)
+- Frontend Mentor - [@RobyMarceddu](https://www.frontendmentor.io/profile/RobyMarceddu)
 
 ## Acknowledgments
 
