@@ -1,0 +1,65 @@
+[
+  {
+    "name": "firstName",
+    "type": "text",
+    "label": "First Name",
+    "required": true,
+    "placeholder": "",
+    "errorMessages": {
+      "required": "This field is required"
+    }
+  },
+  {
+    "name": "lastName",
+    "type": "text",
+    "label": "Last Name",
+    "required": true,
+    "placeholder": "",
+    "errorMessages": {
+      "required": "This field is required"
+    }
+  },
+  {
+    "name": "email",
+    "type": "email",
+    "label": "Email Address",
+    "required": true,
+    "placeholder": "",
+    "errorMessages": {
+      "required": "This field is required",
+      "pattern": "Please enter a valid email address"
+    }
+  },
+  {
+    "name": "queryType",
+    "type": "radio",
+    "label": "Query Type",
+    "required": true,
+    "options": [
+      { "value": "general", "label": "General Enquiry" },
+      { "value": "support", "label": "Support Request" }
+    ],
+    "errorMessages": {
+      "required": "Please select a query type"
+    }
+  },
+  {
+    "name": "message",
+    "type": "textarea",
+    "label": "Message",
+    "required": true,
+    "placeholder": "",
+    "errorMessages": {
+      "required": "This field is required"
+    }
+  },
+  {
+    "name": "consent",
+    "type": "checkbox",
+    "label": "I consent to being contacted by the team",
+    "required": true,
+    "errorMessages": {
+      "required": "To submit this form, please consent to being contacted"
+    }
+  }
+]
